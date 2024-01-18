@@ -1,0 +1,53 @@
+TFG > .\venv\Scripts\activate.bat
+TFG > cd Padel
+TFG\Padel > mlagents-learn config\[CONFIG-FILE] --run-id=[RUN-ID] --time-scale=1 --no-graphics
+mlagents-learn config\padel_ppo_exp1.yaml --run-id=PadelPPO_EXP1 --time-scale=1 --force
+mlagents-learn config\padel_ppo_exp2.yaml --run-id=PadelPPO_EXP2 --time-scale=1 --force
+mlagents-learn config\padel_ppo_config.yaml --run-id=PadelPPO_EXP3 --time-scale=1 --force
+TFG\Padel > tensorboard --logdir results --port 6006
+
+https://huggingface.co/learn/deep-rl-course/unit1/hands-on
+
+- [Reinforcement Learning: An Introduction, Richard Sutton and Andrew G. Barto Chapter 1, 2 and 3](http://incompleteideas.net/book/RLbook2020.pdf)
+- [Spinning Up RL by OpenAI Part 1: Key concepts of RL](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html)
+- Video: [Foundations of Deep RL Series, L1 MDPs, Exact Solution Methods, Max-ent RL by Pieter Abbeel](https://youtu.be/2GwBez0D20A)
+
+Experimento 1:
+Curiosity [NO]
+public const float WinningReward = 10;
+public const float LosingReward = -10;
+public const float ApproachingKeyPositionsReward = 0f;
+public const float StayingAroundKeyPositionsReward = 0f;
+public const float HittingBallReward = 0f;
+
+Experimento 2:
+Curiosity [SÍ]
+public const float WinningReward = 10;
+public const float LosingReward = -10;
+public const float ApproachingKeyPositionsReward = 0f;
+public const float StayingAroundKeyPositionsReward = 0f;
+public const float HittingBallReward = 0f;
+
+Experimento 3:
+Curiosity [NO]
+public const float WinningReward = 10;
+public const float LosingReward = -10;
+public const float ApproachingKeyPositionsReward = 0f;
+public const float StayingAroundKeyPositionsReward = 0f;
+public const float HittingBallReward = 1f;
+
+Experimento 4:
+Curiosity [NO]
+public const float WinningReward = 0;
+public const float LosingReward = -10;
+public const float ApproachingKeyPositionsReward = 0f;
+public const float StayingAroundKeyPositionsReward = 0f;
+public const float HittingBallReward = 1f;
+
+Experimento 5:
+Curiosity [NO]
+public const float WinningReward = 10;
+public const float LosingReward = -10;
+public const float ApproachingKeyPositionsReward = 0.005f;
+public const float StayingAroundKeyPositionsReward = 0.01f;
+public const float HittingBallReward = 0f;
