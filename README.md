@@ -4,6 +4,12 @@
 
 El entorno virtual de pádel para el aprendizaje por refuerzo es un proyecto desarrollado en Unity que permite entrenar agentes en un entorno de aprendizaje basado en el pádel mediante aprendizaje por refuerzo, utilizando el toolkit de [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents).
 
+Los directorios `Assets`, `Packages`, `Project Settings` y `User Settings` son los necesarios para abrir el proyecto en Unity.
+
+El directorio `config` contiene los archivos de configuración del entrenamiento de agentes en el entorno virtual de pádel. Los modelos obtenidos del entrenamiento se encuentran en el directorio `results`.
+
+El directorio `docs` contiene la memoria del trabajo de fin de grado (código fuente de LaTeX).
+
 Vídeos de demostración:
 - [Experimento 1. Entrenamiento mediante PPO]()
 - [Experimento 2. Efecto de Curiosity en el entorno virtual de pádel]()
