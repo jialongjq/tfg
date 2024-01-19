@@ -11,11 +11,12 @@ El directorio `config` contiene los archivos de configuración del entrenamiento
 El directorio `docs` contiene la memoria del trabajo de fin de grado (código fuente de LaTeX).
 
 Vídeos de demostración:
-- [Experimento 1. Entrenamiento mediante PPO]()
-- [Experimento 2. Efecto de Curiosity en el entorno virtual de pádel]()
-- [Experimento 3. Influencia en la recompensa de golpeo]()
-- [Experimento 4. Importancia del sistema de puntuación Elo]()
-- [Experimento 5. Importancia de las posiciones clave]()
+- [Experimento 1. Entrenamiento mediante PPO](https://youtu.be/c01Wxk4V-j4)
+- [Experimento 2. Efecto de Curiosity en el entorno virtual de pádel](https://youtu.be/9whYapjz-cY)
+- [Experimento 3. Influencia en la recompensa de golpeo](https://youtu.be/A1_gc6cn3m0)
+- [Experimento 4. Importancia del sistema de puntuación Elo](https://youtu.be/Mt8tv0s1uIw)
+- [Experimento 5. Influencia de las posiciones clave](https://youtu.be/sc-13rTFV3E)
+- [Demostración del modo de depuración](https://youtu.be/HECw2WBsCo4)
 
 ## Requerimientos
 
