@@ -13,7 +13,7 @@ los cuales se encuentran en el script `Assets/Scripts/EnvironmentControllerX.cs`
 
 ## Experimentos
 
-A continuación se detallan los experimentos realizados durante el desarrollo del proyecto. Los modelos resultantes se encuentran en la carpeta `results`.
+A continuación se detallan los experimentos realizados durante el desarrollo del proyecto. Los modelos que se han obtenido en cada experimento se encuentran en la carpeta `results`.
 
 ### Experimento 1. Entrenamiento simple mediante PPO
 - Fichero de configuración utilizada: `config/padel_ppo_config.yaml`
